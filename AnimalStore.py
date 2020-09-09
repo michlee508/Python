@@ -14,7 +14,7 @@ def main():
               f"Price is {animal_classes[item]}.")
     print("\nANIMAL              PRICE")
     for item in animal_classes:
-        print(f"{prefix()}{item:20}{animal_classes[item]:>10.2f}")  # 2f means 2 decimal places and float
+        print(f"{prefix()}{item:20}{animal_classes[item]:>10.2f}")  
 
 if __name__ == "__main__":
     main()
